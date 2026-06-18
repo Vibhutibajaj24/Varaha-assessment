@@ -13,20 +13,22 @@ This application is built using React and Mapbox GL JS. It allows users to:
 Installation
 
 1. Clone the repository.
-git clone <repository-url>
-cd <project-folder>
 
 2. Install dependencies.
-npm install
+
+    npm install
 
 3. Install required packages.
-npm install mapbox-gl @mapbox/mapbox-gl-draw @turf/turf
+
+    npm install mapbox-gl @mapbox/mapbox-gl-draw @turf/turf
 
 4. Add your Mapbox access token in App.jsx.
-mapboxgl.accessToken = "YOUR_MAPBOX_ACCESS_TOKEN";
+
+    mapboxgl.accessToken = "YOUR_MAPBOX_ACCESS_TOKEN";
 
 5. Start the application.
-npm start
+
+    npm start
 
 The application will run at:
 
